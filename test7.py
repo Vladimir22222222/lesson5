@@ -1,7 +1,7 @@
 summa = int(input("Минимальная сумма инвестиций - "))
 mike=int(input("Сколько долларов инвестирует Майкл - "))
 ivan=int(input("Сколько долларов инвестирует Иван - "))
-if (mike > 0) and (ivan > 0) and (mike + ivan >= summa):
+if (mike >= summa) and (ivan >= summa) and (mike + ivan >= summa):
 	print(2)
 elif (mike >= summa) and (ivan <= 0):
 	print("Mike")
